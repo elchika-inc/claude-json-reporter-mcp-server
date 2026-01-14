@@ -2,6 +2,6 @@
   "name": "daily-report",
   "description": "Claude Code の履歴から日報を自動生成するスキル。履歴をラベリングし、プロジェクト別にまとめた日報を出力します。",
   "version": "0.1.0",
-  "skills": "./skills/",
-  "mcpServers": "./.mcp.json"
+  "skills": "../skills/",
+  "mcpServers": "../.mcp.json"
 }

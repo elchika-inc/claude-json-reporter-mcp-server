@@ -63,7 +63,9 @@ export async function handleGetHistory(args: {
     const options: Parameters<typeof getHistory>[0] = {};
 
     if (args.start_date) {
-      options.startDate = new Date(args.start_date);
+      const startDate = new Date(args.start_date);
+      startDate.setHours(0, 0, 0, 0);
+      options.startDate = startDate;
     }
     if (args.end_date) {
       // 終了日は当日の終わりまで含める

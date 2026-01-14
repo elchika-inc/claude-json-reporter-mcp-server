@@ -154,6 +154,33 @@ describe("handlers", () => {
         }),
       );
     });
+
+    it("同じ日付を指定した場合、その日の全範囲が対象になる", async () => {
+      vi.mocked(historyReader.getHistory).mockResolvedValue({
+        entries: [],
+        totalCount: 0,
+      });
+
+      await handleGetHistory({
+        start_date: "2024-01-15",
+        end_date: "2024-01-15",
+      });
+
+      const call = vi.mocked(historyReader.getHistory).mock.calls[0]?.[0];
+      expect(call).toBeDefined();
+
+      // start_date は 00:00:00.000 に設定される
+      expect(call?.startDate?.getHours()).toBe(0);
+      expect(call?.startDate?.getMinutes()).toBe(0);
+      expect(call?.startDate?.getSeconds()).toBe(0);
+      expect(call?.startDate?.getMilliseconds()).toBe(0);
+
+      // end_date は 23:59:59.999 に設定される
+      expect(call?.endDate?.getHours()).toBe(23);
+      expect(call?.endDate?.getMinutes()).toBe(59);
+      expect(call?.endDate?.getSeconds()).toBe(59);
+      expect(call?.endDate?.getMilliseconds()).toBe(999);
+    });
   });
 
   describe("handleGetSessionDetail", () => {

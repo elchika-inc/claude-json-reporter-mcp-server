@@ -1,0 +1,37 @@
+# Source files
+src/
+
+# Tests
+__tests__/
+dist/__tests__/
+*.test.ts
+*.spec.ts
+*.test.js
+*.test.d.ts
+
+# Config files
+tsconfig.json
+biome.json
+.mcp.json
+vitest.config.ts
+
+# Development files
+.claude/
+__docs__/
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+*.tmp

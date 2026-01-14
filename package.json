@@ -22,10 +22,19 @@
     "claude",
     "claude-code",
     "history",
-    "reporter"
+    "reporter",
+    "daily-report"
   ],
-  "author": "",
+  "author": "naoto24kawa",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naoto24kawa/claude-json-reporter-mcp.git"
+  },
+  "homepage": "https://github.com/naoto24kawa/claude-json-reporter-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/naoto24kawa/claude-json-reporter-mcp/issues"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0"
   },
@@ -39,6 +48,7 @@
     "node": ">=18.0.0"
   },
   "files": [
-    "dist"
+    "dist",
+    "!dist/__tests__"
   ]
 }

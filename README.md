@@ -73,7 +73,7 @@ MCP サーバーとして直接使用する場合の設定です。
 #### インストール
 
 ```bash
-claude plugins:add naoto24kawa/claude-json-reporter-mcp-server
+claude plugins:add naoto24kawa/claude-json-reporter
 ```
 
 #### 使い方

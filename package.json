@@ -29,11 +29,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/naoto24kawa/claude-json-reporter-mcp.git"
+    "url": "git+https://github.com/elchika-inc/claude-json-reporter-mcp-server.git"
   },
-  "homepage": "https://github.com/naoto24kawa/claude-json-reporter-mcp#readme",
+  "homepage": "https://github.com/elchika-inc/claude-json-reporter-mcp-server#readme",
   "bugs": {
-    "url": "https://github.com/naoto24kawa/claude-json-reporter-mcp/issues"
+    "url": "https://github.com/elchika-inc/claude-json-reporter-mcp-server/issues"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0"

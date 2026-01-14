@@ -24,7 +24,7 @@ npm install -g claude-json-reporter-mcp-server
 ### ソースから
 
 ```bash
-git clone https://github.com/naoto24kawa/claude-json-reporter-mcp-server.git
+git clone https://github.com/elchika-inc/claude-json-reporter-mcp-server.git
 cd claude-json-reporter-mcp-server
 npm install
 npm run build
@@ -73,7 +73,7 @@ MCP サーバーとして直接使用する場合の設定です。
 #### インストール
 
 ```bash
-claude plugins:add naoto24kawa/claude-json-reporter
+claude plugins:add elchika-inc/claude-json-reporter
 ```
 
 #### 使い方

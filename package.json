@@ -1,11 +1,11 @@
 {
-  "name": "claude-json-reporter-mcp",
+  "name": "claude-json-reporter-mcp-server",
   "version": "0.1.0",
   "description": "MCP server for Claude Code history reporting",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "claude-json-reporter-mcp": "dist/index.js"
+    "claude-json-reporter-mcp-server": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",

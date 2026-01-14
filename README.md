@@ -1,7 +1,7 @@
-# claude-json-reporter-mcp
+# claude-json-reporter-mcp-server
 
-[![npm version](https://badge.fury.io/js/claude-json-reporter-mcp.svg)](https://www.npmjs.com/package/claude-json-reporter-mcp)
-[![Node.js Version](https://img.shields.io/node/v/claude-json-reporter-mcp.svg)](https://nodejs.org)
+[![npm version](https://badge.fury.io/js/claude-json-reporter-mcp-server.svg)](https://www.npmjs.com/package/claude-json-reporter-mcp-server)
+[![Node.js Version](https://img.shields.io/node/v/claude-json-reporter-mcp-server.svg)](https://nodejs.org)
 
 Claude Code の履歴ファイルを読み取る MCP (Model Context Protocol) サーバー。日報生成や作業分析に活用できます。
 
@@ -18,14 +18,14 @@ Claude Code の履歴ファイルを読み取る MCP (Model Context Protocol) �
 ### npm
 
 ```bash
-npm install -g claude-json-reporter-mcp
+npm install -g claude-json-reporter-mcp-server
 ```
 
 ### ソースから
 
 ```bash
-git clone https://github.com/naoto24kawa/claude-json-reporter-mcp.git
-cd claude-json-reporter-mcp
+git clone https://github.com/naoto24kawa/claude-json-reporter-mcp-server.git
+cd claude-json-reporter-mcp-server
 npm install
 npm run build
 ```
@@ -45,7 +45,7 @@ MCP サーバーとして直接使用する場合の設定です。
   "mcpServers": {
     "claude-json-reporter": {
       "command": "npx",
-      "args": ["-y", "claude-json-reporter-mcp"]
+      "args": ["-y", "claude-json-reporter-mcp-server"]
     }
   }
 }
@@ -60,7 +60,7 @@ MCP サーバーとして直接使用する場合の設定です。
   "mcpServers": {
     "claude-json-reporter": {
       "command": "npx",
-      "args": ["-y", "claude-json-reporter-mcp"]
+      "args": ["-y", "claude-json-reporter-mcp-server"]
     }
   }
 }
@@ -73,7 +73,7 @@ MCP サーバーとして直接使用する場合の設定です。
 #### インストール
 
 ```bash
-claude plugins:add naoto24kawa/claude-json-reporter-mcp
+claude plugins:add naoto24kawa/claude-json-reporter-mcp-server
 ```
 
 #### 使い方

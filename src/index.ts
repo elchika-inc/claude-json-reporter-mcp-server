@@ -16,7 +16,7 @@ import {
 
 const server = new Server(
   {
-    name: "claude-json-reporter-mcp",
+    name: "claude-json-reporter-mcp-server",
     version: "0.1.0",
   },
   {

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "claude-json-reporter": {
+      "command": "npx",
+      "args": ["-y", "claude-json-reporter-mcp-server"]
+    }
+  }
+}

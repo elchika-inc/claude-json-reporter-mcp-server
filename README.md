@@ -244,4 +244,4 @@ npm run build
 
 ## Author
 
-[naoto24kawa](https://github.com/naoto24kawa)
+[elchika-inc](https://github.com/elchika-inc)
